@@ -1,0 +1,19 @@
+Source: git
+Section: unknown
+Priority: optional
+Maintainer: nimchynskyi <nimchynskyi@icloud.com>
+Build-Depends: debhelper-compat (= 13), autotools-dev, libmagic1:amd64, libsasl2-2:amd64, libfakeroot:amd64, mawk, libssh2-1:amd64, libgnutls30:amd64,
+  libidn2-0:amd64, mailcap, file, libunistring2:amd64, libnghttp2-14:amd64, libcurl3-gnutls:amd64, libpsl5:amd64, libp11-kit0:amd64, libffi7:amd64,
+  libbrotli1:amd64, zlib1g-dev:amd64, libtasn1-6:amd64, libnettle8:amd64, libhogweed6:amd64, libmagic-mgc, libldap-2.4-2:amd64, libperl5.32:amd64,
+  librtmp1:amd64, libcurl4-gnutls-dev:amd64
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/git
+#Vcs-Git: https://salsa.debian.org/debian/git.git
+Rules-Requires-Root: no
+
+Package: git
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Git - fast, scalable, distributed revision control system
+ Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.

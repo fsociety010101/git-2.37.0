@@ -1,0 +1,4 @@
+perl:Depends=perl:any
+shlibs:Depends=libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.0)
+misc:Depends=
+misc:Pre-Depends=
